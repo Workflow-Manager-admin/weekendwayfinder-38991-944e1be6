@@ -17,49 +17,48 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
 
 Lazy chunk files     | Names                  |  Raw size
 chunk-BE3IAYK5.js    | trip-planner-component |  10.23 kB | 
-chunk-CCMC4DV6.js    | home-component         |   5.07 kB | 
 chunk-2VUL5CCX.js    | sign-in-component      |   4.31 kB | 
+chunk-CTJQYZPD.js    | home-component         |   3.58 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-YUVRB26Y.mjs   | -                      |   3.88 kB | 
+chunk-UKRD5MNE.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
 
 Lazy chunk files     | Names                  |  Raw size
 chunk-GNAV6JBU.mjs   | trip-planner-component |  10.27 kB | 
-chunk-6UQE7W6H.mjs   | home-component         |   5.11 kB | 
 chunk-5KUKQKMS.mjs   | sign-in-component      |   4.35 kB | 
+chunk-WL6THVF5.mjs   | home-component         |   3.61 kB | 
 
-Application bundle generation complete. [2.326 seconds]
+Application bundle generation complete. [2.320 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
-5:40:52 AM [vite] (client) Re-optimizing dependencies because vite config has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
 Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |   3.44 kB | 
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |   3.44 kB | 
 
-Lazy chunk files    | Names          |  Raw size
-chunk-CTJQYZPD.js   | home-component |   3.58 kB | 
+Lazy chunk files    | Names                  |  Raw size
+chunk-CCOJJ2LE.js   | trip-planner-component |  11.63 kB | 
 
 
 Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-UKRD5MNE.mjs  | -              |   3.88 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
+Initial chunk files | Names                  |  Raw size
+chunk-DEFICJ6G.mjs  | -                      |   3.88 kB | 
+server.mjs          | server                 |   1.42 kB | 
+main.server.mjs     | main.server            | 831 bytes | 
 
-Lazy chunk files    | Names          |  Raw size
-chunk-WL6THVF5.mjs  | home-component |   3.61 kB | 
+Lazy chunk files    | Names                  |  Raw size
+chunk-5WY3DWDJ.mjs  | trip-planner-component |  11.67 kB | 
 
-Application bundle generation complete. [0.447 seconds]
+Application bundle generation complete. [0.520 seconds]
 
 Page reload sent to client(s).
