@@ -18,13 +18,13 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-UYDWSMSA.js    | trip-planner-component |   4.64 kB | 
 chunk-RPGLVDE4.js    | sign-in-component      |   4.12 kB | 
-chunk-2D7SAPNW.js    | home-component         |   3.43 kB | 
+chunk-HOIQVV7Q.js    | home-component         |   3.85 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-2DUVLNUY.mjs   | -                      |   3.88 kB | 
+chunk-WF326DVX.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
@@ -32,31 +32,14 @@ chunk-FFILDKJJ.mjs   | -                      | 788 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-3SETKUVQ.mjs   | trip-planner-component |   4.67 kB | 
 chunk-XI4OQLQR.mjs   | sign-in-component      |   4.15 kB | 
-chunk-AD3TKWY4.mjs   | home-component         |   3.46 kB | 
+chunk-X3OVZGP4.mjs   | home-component         |   3.89 kB | 
 
-Application bundle generation complete. [2.215 seconds]
+Application bundle generation complete. [2.268 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.350 seconds]
-
-✘ [ERROR] NG9: Property 'onAISuggestions' does not exist on type 'HomeComponent'. [plugin angular-compiler]
-
-    src/app/home/home.component.html:8:46:
-      8 │ ...rgin-top:1rem;" (click)="onAISuggestions()">AI Suggestions</button>
-        ╵                             ~~~~~~~~~~~~~~~
-
-  Error occurs in the template of component HomeComponent.
-
-    src/app/home/home.component.ts:8:15:
-      8 │   templateUrl: './home.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~~
-
-
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
 Browser bundles     
@@ -71,13 +54,13 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-UYDWSMSA.js    | trip-planner-component |   4.64 kB | 
 chunk-RPGLVDE4.js    | sign-in-component      |   4.12 kB | 
-chunk-KZPYXKEA.js    | home-component         |   3.85 kB | 
+chunk-HOIQVV7Q.js    | home-component         |   3.85 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-BADQC2SE.mjs   | -                      |   3.88 kB | 
+chunk-WF326DVX.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
@@ -85,52 +68,7 @@ chunk-FFILDKJJ.mjs   | -                      | 788 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-3SETKUVQ.mjs   | trip-planner-component |   4.67 kB | 
 chunk-XI4OQLQR.mjs   | sign-in-component      |   4.15 kB | 
-chunk-5E3A33VU.mjs   | home-component         |   3.88 kB | 
+chunk-X3OVZGP4.mjs   | home-component         |   3.89 kB | 
 
-Application bundle generation complete. [0.314 seconds]
+Application bundle generation complete. [0.326 seconds]
 
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |   3.44 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-BCKBSD24.js   | home-component |   3.85 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-XBUZ4K2J.mjs  | -              |   3.88 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-Z3IB7U6H.mjs  | home-component |   3.89 kB | 
-
-Application bundle generation complete. [0.190 seconds]
-
-Page reload sent to client(s).
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names          |  Raw size
-main.js             | main           |   3.44 kB | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-HOIQVV7Q.js   | home-component |   3.85 kB | 
-
-
-Server bundles     
-Initial chunk files | Names          |  Raw size
-chunk-WF326DVX.mjs  | -              |   3.88 kB | 
-server.mjs          | server         |   1.42 kB | 
-main.server.mjs     | main.server    | 831 bytes | 
-
-Lazy chunk files    | Names          |  Raw size
-chunk-X3OVZGP4.mjs  | home-component |   3.89 kB | 
-
-Application bundle generation complete. [0.134 seconds]
-
-Page reload sent to client(s).
