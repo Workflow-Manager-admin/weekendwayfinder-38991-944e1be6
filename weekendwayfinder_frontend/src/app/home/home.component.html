@@ -1,3 +1,14 @@
+<!-- Custom Home Page Navigation with AI Suggestions top-right -->
+<div class="home-nav-row">
+  <div class="home-logo-title">
+    <span class="compass-icon">&#x1F9ED;</span>
+    <span class="ww-nav-title">WeekendWayfinder</span>
+  </div>
+  <div class="home-nav-actions">
+    <a routerLink="/sign-in" class="home-signin-btn">Sign In</a>
+    <button class="ai-suggestions-nav-btn" (click)="onAISuggestions()">AI Suggestions</button>
+  </div>
+</div>
 <div class="home-hero-bg">
   <div class="home-hero-content">
     <h1>Find Your Perfect Weekend Getaway</h1>
@@ -5,6 +16,5 @@
       Discover micro-trips tailored to you. Enjoy new adventures, relax, or explore culture—AI-powered suggestions, just a click away.
     </p>
     <button (click)="goToPlanner()">Plan My Trip</button>
-    <button style="margin-top:1rem;" (click)="onAISuggestions()">AI Suggestions</button>
   </div>
 </div>

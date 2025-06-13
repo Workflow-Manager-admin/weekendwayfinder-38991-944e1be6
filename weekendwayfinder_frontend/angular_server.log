@@ -16,7 +16,7 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
                      | Initial total          |  96.15 kB
 
 Lazy chunk files     | Names                  |  Raw size
-chunk-DRU2DN2B.js    | trip-planner-component |   9.68 kB | 
+chunk-S7K4BTJP.js    | trip-planner-component |   9.91 kB | 
 chunk-RPGLVDE4.js    | sign-in-component      |   4.12 kB | 
 chunk-HOIQVV7Q.js    | home-component         |   3.85 kB | 
 
@@ -24,17 +24,30 @@ chunk-HOIQVV7Q.js    | home-component         |   3.85 kB |
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-RH2WX4OV.mjs   | -                      |   3.88 kB | 
+chunk-2BHUTTHL.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
 
 Lazy chunk files     | Names                  |  Raw size
-chunk-46UGKWL6.mjs   | trip-planner-component |   9.72 kB | 
+chunk-7H7T4XE2.mjs   | trip-planner-component |   9.94 kB | 
 chunk-XI4OQLQR.mjs   | sign-in-component      |   4.15 kB | 
 chunk-X3OVZGP4.mjs   | home-component         |   3.89 kB | 
 
-Application bundle generation complete. [2.558 seconds]
+Application bundle generation complete. [2.298 seconds]
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/trip-planner/trip-planner.component.html:9:17:
+      9 │         <option *ngFor="let mood of moods" [value]="mood.value">
+        ╵                  ~~~~~
+
+  Error occurs in the template of component TripPlannerComponent.
+
+    src/app/trip-planner/trip-planner.component.ts:10:15:
+      10 │   templateUrl: './trip-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 ▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
@@ -69,23 +82,23 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
 Browser bundles    
-Initial chunk files | Names                  |  Raw size
-main.js             | main                   |   3.44 kB | 
+Initial chunk files | Names          |  Raw size
+main.js             | main           |   3.44 kB | 
 
-Lazy chunk files    | Names                  |  Raw size
-chunk-S7K4BTJP.js   | trip-planner-component |   9.91 kB | 
+Lazy chunk files    | Names          |  Raw size
+chunk-ZQ6M65RI.js   | home-component |   4.46 kB | 
 
 
 Server bundles     
-Initial chunk files | Names                  |  Raw size
-chunk-2BHUTTHL.mjs  | -                      |   3.88 kB | 
-server.mjs          | server                 |   1.42 kB | 
-main.server.mjs     | main.server            | 831 bytes | 
+Initial chunk files | Names          |  Raw size
+chunk-RHY7R3IY.mjs  | -              |   3.88 kB | 
+server.mjs          | server         |   1.42 kB | 
+main.server.mjs     | main.server    | 831 bytes | 
 
-Lazy chunk files    | Names                  |  Raw size
-chunk-7H7T4XE2.mjs  | trip-planner-component |   9.94 kB | 
+Lazy chunk files    | Names          |  Raw size
+chunk-N4FUKB2M.mjs  | home-component |   4.49 kB | 
 
-Application bundle generation complete. [0.384 seconds]
+Application bundle generation complete. [0.403 seconds]
 
 ▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
