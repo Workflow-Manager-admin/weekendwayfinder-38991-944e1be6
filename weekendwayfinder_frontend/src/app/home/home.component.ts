@@ -1,16 +1,23 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 // PUBLIC_INTERFACE
 @Component({
   standalone: true,
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  providers: [],
+  // Angular v14+ supports importing providers & Router in a standalone component.
 })
 /** This component renders the initial home page of WeekendWayfinder. */
 export class HomeComponent {
-  // The goToPlanner method will be implemented with router navigation when used in template context.
+  // eslint-disable-next-line no-unused-vars
+  constructor(private readonly _router: Router) {}
+
+  // PUBLIC_INTERFACE
   goToPlanner(): void {
-    // Navigation stub (actual logic handled by template binding or through template routerLink).
+    /** Navigate to the Trip Planner page when called. */
+    this._router.navigate(['/trip-planner']);
   }
 }

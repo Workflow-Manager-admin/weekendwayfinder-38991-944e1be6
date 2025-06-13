@@ -40,3 +40,69 @@ Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names          |  Raw size
+main.js             | main           |   3.44 kB | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-RUT26Q7E.js   | home-component |   3.38 kB | 
+
+
+Server bundles     
+Initial chunk files | Names          |  Raw size
+chunk-5AQYV5PY.mjs  | -              |   3.88 kB | 
+server.mjs          | server         |   1.42 kB | 
+main.server.mjs     | main.server    | 831 bytes | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-MTPMZDNK.mjs  | home-component |   3.41 kB | 
+
+Application bundle generation complete. [0.417 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names          |  Raw size
+main.js             | main           |   3.44 kB | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-FEORCGLW.js   | home-component |   3.45 kB | 
+
+
+Server bundles     
+Initial chunk files | Names          |  Raw size
+chunk-4YXCCBSC.mjs  | -              |   3.88 kB | 
+server.mjs          | server         |   1.42 kB | 
+main.server.mjs     | main.server    | 831 bytes | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-KCNTGCMD.mjs  | home-component |   3.48 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names          |  Raw size
+main.js             | main           |   3.44 kB | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-2D7SAPNW.js   | home-component |   3.43 kB | 
+
+
+Server bundles     
+Initial chunk files | Names          |  Raw size
+chunk-2DUVLNUY.mjs  | -              |   3.88 kB | 
+server.mjs          | server         |   1.42 kB | 
+main.server.mjs     | main.server    | 831 bytes | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-AD3TKWY4.mjs  | home-component |   3.46 kB | 
+
+Application bundle generation complete. [0.261 seconds]
+
+Page reload sent to client(s).
