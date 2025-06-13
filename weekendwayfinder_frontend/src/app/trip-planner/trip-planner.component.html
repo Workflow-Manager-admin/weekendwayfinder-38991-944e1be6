@@ -6,9 +6,9 @@
       <input id="distance" type="number" placeholder="e.g., 200 km" min="5">
       <label for="mood">Mood</label>
       <select id="mood">
-        <option value="relaxing">Relaxing</option>
-        <option value="adventurous">Adventurous</option>
-        <option value="cultural">Cultural</option>
+        <option *ngFor="let mood of moods" [value]="mood.value">
+          {{ mood.label }}
+        </option>
       </select>
       <label for="budget">Budget (₹)</label>
       <input id="budget" type="number" placeholder="₹" min="1">

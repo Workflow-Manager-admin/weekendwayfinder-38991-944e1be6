@@ -16,7 +16,7 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
                      | Initial total          |  96.15 kB
 
 Lazy chunk files     | Names                  |  Raw size
-chunk-JH74MUQX.js    | trip-planner-component |   9.02 kB | 
+chunk-DRU2DN2B.js    | trip-planner-component |   9.68 kB | 
 chunk-RPGLVDE4.js    | sign-in-component      |   4.12 kB | 
 chunk-HOIQVV7Q.js    | home-component         |   3.85 kB | 
 
@@ -24,17 +24,17 @@ chunk-HOIQVV7Q.js    | home-component         |   3.85 kB |
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-EXTS42KX.mjs   | -                      |   3.88 kB | 
+chunk-RH2WX4OV.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
 
 Lazy chunk files     | Names                  |  Raw size
-chunk-62ZVQORG.mjs   | trip-planner-component |   9.05 kB | 
+chunk-46UGKWL6.mjs   | trip-planner-component |   9.72 kB | 
 chunk-XI4OQLQR.mjs   | sign-in-component      |   4.15 kB | 
 chunk-X3OVZGP4.mjs   | home-component         |   3.89 kB | 
 
-Application bundle generation complete. [2.442 seconds]
+Application bundle generation complete. [2.558 seconds]
 
 ▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
@@ -66,3 +66,64 @@ Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |   3.44 kB | 
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-S7K4BTJP.js   | trip-planner-component |   9.91 kB | 
+
+
+Server bundles     
+Initial chunk files | Names                  |  Raw size
+chunk-2BHUTTHL.mjs  | -                      |   3.88 kB | 
+server.mjs          | server                 |   1.42 kB | 
+main.server.mjs     | main.server            | 831 bytes | 
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-7H7T4XE2.mjs  | trip-planner-component |   9.94 kB | 
+
+Application bundle generation complete. [0.384 seconds]
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/trip-planner/trip-planner.component.html:9:17:
+      9 │         <option *ngFor="let mood of moods" [value]="mood.value">
+        ╵                  ~~~~~
+
+  Error occurs in the template of component TripPlannerComponent.
+
+    src/app/trip-planner/trip-planner.component.ts:10:15:
+      10 │   templateUrl: './trip-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/trip-planner/trip-planner.component.html:17:10:
+      17 │     <div *ngIf="aiSuggestions?.length > 0; else suggestionPlacehol...
+         ╵           ~~~~
+
+  Error occurs in the template of component TripPlannerComponent.
+
+    src/app/trip-planner/trip-planner.component.ts:10:15:
+      10 │   templateUrl: './trip-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/trip-planner/trip-planner.component.html:20:13:
+      20 │         <li *ngFor="let suggestion of aiSuggestions" class="sugges...
+         ╵              ~~~~~
+
+  Error occurs in the template of component TripPlannerComponent.
+
+    src/app/trip-planner/trip-planner.component.ts:10:15:
+      10 │   templateUrl: './trip-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Page reload sent to client(s).
