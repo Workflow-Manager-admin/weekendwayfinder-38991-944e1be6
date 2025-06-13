@@ -1,13 +1,23 @@
 <div class="ai-suggestions-bg">
-  <div class="ai-suggestions-container">
+  <div class="ai-suggestions-container" style="max-width: 540px">
     <h2>AI Suggestions</h2>
-    <p class="ai-desc">Get ready for more smart trip ideas! This section will soon provide AI-powered, personalized suggestions for your next weekend getaway.</p>
-    <div class="ai-placeholder-card">
-      <span class="ai-icon">&#129302;</span>
-      <div class="ai-card-content">
-        <strong>Coming Soon!</strong>
-        <div>We’re crafting smarter micro-trip recommendations tailored to you. Stay tuned.</div>
-      </div>
+    <p class="ai-desc">Here are smart trip ideas tailored for you! This is a sample preview of AI-powered suggestions for your next weekend getaway.</p>
+    <div *ngIf="aiSuggestions && aiSuggestions.length > 0; else noSuggestionsBlock" class="suggestion-list">
+      <h3 class="suggestion-title">AI Suggestions</h3>
+      <ul>
+        <li *ngFor="let suggestion of aiSuggestions" class="suggestion-card">
+          <span class="suggestion-icon">&#128205;</span>
+          <div class="suggestion-content">
+            <strong>{{ suggestion.title }}</strong>
+            <div class="suggestion-desc">{{ suggestion.description }}</div>
+          </div>
+        </li>
+      </ul>
     </div>
+    <ng-template #noSuggestionsBlock>
+      <div class="suggestion-placeholder">
+        <p style="margin:0;font-style:italic;">No AI trip suggestions available at the moment.</p>
+      </div>
+    </ng-template>
   </div>
 </div>

@@ -7,34 +7,36 @@ The "disableHostCheck" option will not be used because it is not supported by th
 ❯ Building...
 ✔ Building...
 Browser bundles     
-Initial chunk files  | Names                  |  Raw size
-polyfills.js         | polyfills              |  90.20 kB | 
-main.js              | main                   |   3.69 kB | 
-styles.css           | styles                 |   1.75 kB | 
-chunk-YQOESBWP.js    | -                      | 754 bytes | 
+Initial chunk files  | Names                    |  Raw size
+polyfills.js         | polyfills                |  90.20 kB | 
+main.js              | main                     |   3.91 kB | 
+styles.css           | styles                   |   1.75 kB | 
+chunk-YQOESBWP.js    | -                        | 754 bytes | 
 
-                     | Initial total          |  96.39 kB
+                     | Initial total            |  96.62 kB
 
-Lazy chunk files     | Names                  |  Raw size
-chunk-CCOJJ2LE.js    | trip-planner-component |  11.63 kB | 
-chunk-2VUL5CCX.js    | sign-in-component      |   4.31 kB | 
-chunk-CTJQYZPD.js    | home-component         |   3.58 kB | 
+Lazy chunk files     | Names                    |  Raw size
+chunk-CCOJJ2LE.js    | trip-planner-component   |  11.63 kB | 
+chunk-2VUL5CCX.js    | sign-in-component        |   4.31 kB | 
+chunk-UN7PJY6I.js    | ai-suggestions-component |   3.97 kB | 
+chunk-CTJQYZPD.js    | home-component           |   3.58 kB | 
 
 
 Server bundles      
-Initial chunk files  | Names                  |  Raw size
-polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-7VWZ3T4Z.mjs   | -                      |   4.12 kB | 
-server.mjs           | server                 |   1.42 kB | 
-main.server.mjs      | main.server            | 831 bytes | 
-chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
+Initial chunk files  | Names                    |  Raw size
+polyfills.server.mjs | polyfills.server         | 572.91 kB | 
+chunk-2WMBXFDT.mjs   | -                        |   4.35 kB | 
+server.mjs           | server                   |   1.42 kB | 
+main.server.mjs      | main.server              | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                        | 788 bytes | 
 
-Lazy chunk files     | Names                  |  Raw size
-chunk-5WY3DWDJ.mjs   | trip-planner-component |  11.67 kB | 
-chunk-5KUKQKMS.mjs   | sign-in-component      |   4.35 kB | 
-chunk-WL6THVF5.mjs   | home-component         |   3.61 kB | 
+Lazy chunk files     | Names                    |  Raw size
+chunk-5WY3DWDJ.mjs   | trip-planner-component   |  11.67 kB | 
+chunk-5KUKQKMS.mjs   | sign-in-component        |   4.35 kB | 
+chunk-HVCQS4C4.mjs   | ai-suggestions-component |   4.01 kB | 
+chunk-WL6THVF5.mjs   | home-component           |   3.61 kB | 
 
-Application bundle generation complete. [2.279 seconds]
+Application bundle generation complete. [2.509 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
@@ -42,26 +44,89 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
   ➜  Network: http://172.17.0.2:3000/
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
-Application bundle generation failed. [0.332 seconds]
+Browser bundles    
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |   3.91 kB | 
 
-✘ [ERROR] Could not resolve "./ai-suggestions/ai-suggestions.component"
-
-    src/app/app.routes.ts:6:58:
-      6 │ ... => import('./ai-suggestions/ai-suggestions.component').then(m =...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] TS2307: Cannot find module './ai-suggestions/ai-suggestions.component' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:8:56:
-      8 │ ... => import('./ai-suggestions/ai-suggestions.component').then(m =...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files    | Names                  |  Raw size
+chunk-3MHE4AXN.js   | trip-planner-component |   9.30 kB | 
 
 
-✘ [ERROR] Could not resolve "./ai-suggestions/ai-suggestions.component"
+Server bundles     
+Initial chunk files | Names                  |  Raw size
+chunk-GQI444K3.mjs  | -                      |   4.35 kB | 
+server.mjs          | server                 |   1.42 kB | 
+main.server.mjs     | main.server            | 831 bytes | 
 
-    src/app/app.routes.ts:6:58:
-      6 │ ... => import('./ai-suggestions/ai-suggestions.component').then(m =...
-        ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lazy chunk files    | Names                  |  Raw size
+chunk-JVIKGXZO.mjs  | trip-planner-component |   9.33 kB | 
+
+Application bundle generation complete. [0.484 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                    |  Raw size
+main.js             | main                     |   3.91 kB | 
+
+Lazy chunk files    | Names                    |  Raw size
+chunk-VXX2BEDQ.js   | ai-suggestions-component |   5.99 kB | 
 
 
+Server bundles     
+Initial chunk files | Names                    |  Raw size
+chunk-57EQWFEH.mjs  | -                        |   4.35 kB | 
+server.mjs          | server                   |   1.42 kB | 
+main.server.mjs     | main.server              | 831 bytes | 
+
+Lazy chunk files    | Names                    |  Raw size
+chunk-7SD6K26Q.mjs  | ai-suggestions-component |   6.03 kB | 
+
+Application bundle generation complete. [0.304 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                    |  Raw size
+main.js             | main                     |   3.91 kB | 
+
+Lazy chunk files    | Names                    |  Raw size
+chunk-TNE3D33L.js   | ai-suggestions-component |   7.86 kB | 
+
+
+Server bundles     
+Initial chunk files | Names                    |  Raw size
+chunk-ZCEIHDMR.mjs  | -                        |   4.35 kB | 
+server.mjs          | server                   |   1.42 kB | 
+main.server.mjs     | main.server              | 831 bytes | 
+
+Lazy chunk files    | Names                    |  Raw size
+chunk-A4GJXYBQ.mjs  | ai-suggestions-component |   7.89 kB | 
+
+Application bundle generation complete. [0.264 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |   3.91 kB | 
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-HJGAQHTU.js   | trip-planner-component |   7.28 kB | 
+
+
+Server bundles     
+Initial chunk files | Names                  |  Raw size
+chunk-2UHFVNCO.mjs  | -                      |   4.35 kB | 
+server.mjs          | server                 |   1.42 kB | 
+main.server.mjs     | main.server            | 831 bytes | 
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-GSZ227JT.mjs  | trip-planner-component |   7.31 kB | 
+
+Application bundle generation complete. [0.318 seconds]
+
+Page reload sent to client(s).

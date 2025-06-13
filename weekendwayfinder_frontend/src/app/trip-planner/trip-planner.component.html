@@ -14,22 +14,5 @@
       <input id="budget" type="number" placeholder="₹" min="1">
       <button type="submit">Get Suggestions</button>
     </form>
-    <div *ngIf="aiSuggestions && aiSuggestions.length > 0; else suggestionPlaceholder" class="suggestion-list">
-      <h3 class="suggestion-title">AI Suggestions</h3>
-      <ul>
-        <li *ngFor="let suggestion of aiSuggestions" class="suggestion-card">
-          <span class="suggestion-icon">&#128205;</span>
-          <div class="suggestion-content">
-            <strong>{{ suggestion.title }}</strong>
-            <div class="suggestion-desc">{{ suggestion.description }}</div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <ng-template #suggestionPlaceholder>
-      <div class="suggestion-placeholder">
-        <p style="margin:0;font-style:italic;">Your AI trip suggestions will appear here!</p>
-      </div>
-    </ng-template>
   </div>
 </div>
