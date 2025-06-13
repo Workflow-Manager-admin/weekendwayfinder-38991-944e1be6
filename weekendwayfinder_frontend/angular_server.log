@@ -41,3 +41,25 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
 5:40:52 AM [vite] (client) Re-optimizing dependencies because vite config has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names          |  Raw size
+main.js             | main           |   3.44 kB | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-CTJQYZPD.js   | home-component |   3.58 kB | 
+
+
+Server bundles     
+Initial chunk files | Names          |  Raw size
+chunk-UKRD5MNE.mjs  | -              |   3.88 kB | 
+server.mjs          | server         |   1.42 kB | 
+main.server.mjs     | main.server    | 831 bytes | 
+
+Lazy chunk files    | Names          |  Raw size
+chunk-WL6THVF5.mjs  | home-component |   3.61 kB | 
+
+Application bundle generation complete. [0.447 seconds]
+
+Page reload sent to client(s).
