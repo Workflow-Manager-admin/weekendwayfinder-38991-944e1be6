@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 /**
  * This component renders the Trip Planner UI and 
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 @Component({
   standalone: true,
   selector: 'app-trip-planner',
+  imports: [CommonModule],
   templateUrl: './trip-planner.component.html',
   styleUrl: './trip-planner.component.css'
 })
