@@ -1,0 +1,96 @@
+:root {
+  --primary: #2D5F5D;
+  --secondary: #F7C873;
+  --accent: #F25C54;
+  --nav-bg: #fff;
+  --nav-shadow: 0 4px 18px 0 rgba(45, 95, 93, 0.11);
+  --nav-link: #2D5F5D;
+  --nav-link-active: #F25C54;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7fafb;
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--primary);
+}
+
+.ww-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--nav-bg);
+  box-shadow: var(--nav-shadow);
+  padding: 0.7rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.ww-nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.compass-icon {
+  font-size: 1.6rem;
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.ww-nav-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+.ww-nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.ww-nav-links li {
+  display: inline;
+}
+
+.ww-nav-links a {
+  text-decoration: none;
+  color: var(--nav-link);
+  font-weight: 500;
+  font-size: 1.09rem;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.3rem;
+  transition: color 0.15s;
+}
+
+.ww-nav-links a.active,
+.ww-nav-links a:focus,
+.ww-nav-links a:hover {
+  color: var(--nav-link-active);
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
+}
+
+
+.ww-main {
+  min-height: calc(100vh - 56px);
+  padding-top: 1.3rem;
+}
+
+@media (max-width: 600px) {
+  .ww-nav {
+    flex-direction: column;
+    padding: 0.7rem 0.7rem;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .ww-nav-links {
+    gap: 1.2rem;
+  }
+}

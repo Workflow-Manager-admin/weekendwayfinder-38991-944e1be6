@@ -1,0 +1,214 @@
+
+> angular@0.0.0 start
+> ng serve --host 0.0.0.0  --no-hmr --disable-host-check --port 3000
+
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+The "disableHostCheck" option will not be used because it is not supported by the "@angular-devkit/build-angular:application" builder.
+❯ Building...
+✔ Building...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  22.59 kB | 
+styles.css           | styles           |  95 bytes | 
+
+                     | Initial total    | 112.88 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [2.212 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.302 seconds]
+
+✘ [ERROR] Could not resolve "./sign-in/sign-in.component"
+
+    src/app/app.routes.ts:3:51:
+      3 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./home/home.component"
+
+    src/app/app.routes.ts:4:48:
+      4 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './sign-in/sign-in.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:5:49:
+      5 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./trip-planner/trip-planner.component"
+
+    src/app/app.routes.ts:5:56:
+      5 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './home/home.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:6:46:
+      6 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './trip-planner/trip-planner.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:7:54:
+      7 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./sign-in/sign-in.component"
+
+    src/app/app.routes.ts:3:51:
+      3 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./home/home.component"
+
+    src/app/app.routes.ts:4:48:
+      4 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./trip-planner/trip-planner.component"
+
+    src/app/app.routes.ts:5:56:
+      5 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.006 seconds]
+
+✘ [ERROR] Could not resolve "./sign-in/sign-in.component"
+
+    src/app/app.routes.ts:3:51:
+      3 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./home/home.component"
+
+    src/app/app.routes.ts:4:48:
+      4 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './sign-in/sign-in.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:5:49:
+      5 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./trip-planner/trip-planner.component"
+
+    src/app/app.routes.ts:5:56:
+      5 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './home/home.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:6:46:
+      6 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './trip-planner/trip-planner.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:7:54:
+      7 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./sign-in/sign-in.component"
+
+    src/app/app.routes.ts:3:51:
+      3 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./home/home.component"
+
+    src/app/app.routes.ts:4:48:
+      4 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./trip-planner/trip-planner.component"
+
+    src/app/app.routes.ts:5:56:
+      5 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.119 seconds]
+
+✘ [ERROR] TS2307: Cannot find module './sign-in/sign-in.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:5:49:
+      5 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './home/home.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:6:46:
+      6 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './trip-planner/trip-planner.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:7:54:
+      7 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.010 seconds]
+
+✘ [ERROR] TS2307: Cannot find module './sign-in/sign-in.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:5:49:
+      5 │ ...ent: () => import('./sign-in/sign-in.component').then(m => m.Sig...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './home/home.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:6:46:
+      6 │ ...ponent: () => import('./home/home.component').then(m => m.HomeCo...
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './trip-planner/trip-planner.component' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:7:54:
+      7 │ ...() => import('./trip-planner/trip-planner.component').then(m => ...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
