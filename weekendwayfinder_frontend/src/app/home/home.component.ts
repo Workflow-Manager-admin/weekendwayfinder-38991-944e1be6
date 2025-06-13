@@ -21,10 +21,4 @@ export class HomeComponent {
     this._router.navigate(['/trip-planner']);
   }
 
-  // PUBLIC_INTERFACE
-  onAISuggestions(): void {
-    /** Placeholder for future AI Suggestions action. */
-    // TODO: Implement AI suggestion logic in future sprint.
-    console.log("AI Suggestions feature coming soon!");
-  }
 }
