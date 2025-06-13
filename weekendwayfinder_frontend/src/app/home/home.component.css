@@ -9,7 +9,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(110deg, var(--primary) 60%, var(--secondary) 95%);
+  /* Beach/road-trip theme open-license placeholder image */
+  background: 
+    linear-gradient(110deg, var(--primary) 60%, var(--secondary) 95%),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
   padding: 2.5rem 1rem;
 }
 
