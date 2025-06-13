@@ -18,13 +18,13 @@ chunk-YQOESBWP.js    | -                      | 754 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-VPLEFG4O.js    | trip-planner-component |  10.11 kB | 
 chunk-2VUL5CCX.js    | sign-in-component      |   4.31 kB | 
-chunk-5GLF4HK2.js    | home-component         |   4.22 kB | 
+chunk-3MTUV4R6.js    | home-component         |   4.01 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names                  |  Raw size
 polyfills.server.mjs | polyfills.server       | 572.91 kB | 
-chunk-A6CW24UW.mjs   | -                      |   3.88 kB | 
+chunk-35BT44NL.mjs   | -                      |   3.88 kB | 
 server.mjs           | server                 |   1.42 kB | 
 main.server.mjs      | main.server            | 831 bytes | 
 chunk-FFILDKJJ.mjs   | -                      | 788 bytes | 
@@ -32,9 +32,9 @@ chunk-FFILDKJJ.mjs   | -                      | 788 bytes |
 Lazy chunk files     | Names                  |  Raw size
 chunk-3UVLMO5I.mjs   | trip-planner-component |  10.14 kB | 
 chunk-5KUKQKMS.mjs   | sign-in-component      |   4.35 kB | 
-chunk-CFUKZ46L.mjs   | home-component         |   4.26 kB | 
+chunk-BQZ7M6ZZ.mjs   | home-component         |   4.04 kB | 
 
-Application bundle generation complete. [2.438 seconds]
+Application bundle generation complete. [2.192 seconds]
 
 ▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
@@ -86,19 +86,19 @@ Initial chunk files | Names          |  Raw size
 main.js             | main           |   3.44 kB | 
 
 Lazy chunk files    | Names          |  Raw size
-chunk-3MTUV4R6.js   | home-component |   4.01 kB | 
+chunk-Q7ELNVTU.js   | home-component |   3.63 kB | 
 
 
 Server bundles     
 Initial chunk files | Names          |  Raw size
-chunk-35BT44NL.mjs  | -              |   3.88 kB | 
+chunk-TDGK4TES.mjs  | -              |   3.88 kB | 
 server.mjs          | server         |   1.42 kB | 
 main.server.mjs     | main.server    | 831 bytes | 
 
 Lazy chunk files    | Names          |  Raw size
-chunk-BQZ7M6ZZ.mjs  | home-component |   4.04 kB | 
+chunk-BU3L3ZBF.mjs  | home-component |   3.66 kB | 
 
-Application bundle generation complete. [0.441 seconds]
+Application bundle generation complete. [0.411 seconds]
 
 ▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
